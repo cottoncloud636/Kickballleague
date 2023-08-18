@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+
+
+.container {
+	
+	display: flex-column;
+	text-align: center;
+	width: 500px;
+	
+	padding: 40px 20px 20px 20px;
+	font-family: sans-serif;	
+}
+
+.top-container{
+	
+	display: flex-column;
+	justify-content: center;
+    padding-top: 40px;
+	width: 300px;
+	
+}
+
+
+.btm-container{
+	width: 300px;
+	padding-top: 40px;
+}
+
+button{
+	width: 300px;
+}
+
+
+.error {
+	color: #F9214B;
+	font-weight: bold;
+}
+
+.teamcontainer{
+	margin: 40px;
+}
+
+.addbtn, .adddiv, .deletebtn, .teamdelete{
+	margin-top:20px;
+}
+
+.subbtn{
+	margin-top: 20px;
+}
